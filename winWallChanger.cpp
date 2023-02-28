@@ -10,7 +10,7 @@ int main(int argc, char** argv){
         std::cerr << "insufficent arguments for wallpaper change -winWallChanger.cpp" << std::endl;
         return -1;
     }
-
+    //get file path from commandline argument. Using pointer due win API fun sig.
     char *ptr = argv[1];
     bool result = SystemParametersInfoA(20, 0, ptr, 0);
 
