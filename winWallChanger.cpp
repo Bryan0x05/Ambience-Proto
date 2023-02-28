@@ -12,6 +12,7 @@ int main(int argc, char** argv){
     }
     //get file path from commandline argument. Using pointer due win API fun sig.
     char *ptr = argv[1];
+    //Changes windows wallpaper to image file stored at filed path pointed to by ptr.
     bool result = SystemParametersInfoA(20, 0, ptr, 0);
 
     //if api call failed.
