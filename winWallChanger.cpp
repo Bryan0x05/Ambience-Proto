@@ -1,5 +1,4 @@
 //c++ windows wallpaper changer
-
 #include <windows.h>
 #include <iostream>
 #include <string>
