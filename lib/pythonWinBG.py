@@ -1,3 +1,4 @@
+#this has been replaced by the c++ binary but is kept for archival proposes
 import ctypes # python c wrapper function
 import sys # for command line
 
